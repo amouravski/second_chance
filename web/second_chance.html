@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>app</title>
+    <link rel="stylesheet" href="second_chance.css">
+ <!--   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet"> -->
+  </head>
+  <body>
+    <div class="container">
+      <h2>Traffic Lights Out</h2>
+      <template iterate="row in mazeGrid">
+        <div class="row-fluid show-grid">
+          <template iterate="cell in row">
+            <div class="span1 cell {{cell.color}}" on-click=""></div>
+          </template>
+        </div>
+      </template>
+      <h1 style="{{isWon ? '' : 'display:none;'}}">You win!!!! </h1>
+      <h1 style="{{isLose ? '' : 'display:none;'}}">You lose!!!! </h1>
+      <div class="buttons">
+        <div class="button" on-click="left()">Left</div>
+        <div class="button" on-click="up()">Up</div>
+        <div class="button" on-click="down()">Down</div>
+        <div class="button" on-click="right()">Right</div>
+      </div>
+    </div>
+
+    <script type="application/dart" src="second_chance.dart"></script>
+    <script type="text/javascript" src="https://dart.googlecode.com/svn/branches/bleeding_edge/dart/client/dart.js"></script>
+  </body>
+</html>

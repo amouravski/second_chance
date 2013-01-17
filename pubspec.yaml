@@ -1,0 +1,12 @@
+name: second_chance
+version: 0.0.1
+author: Andrei Mouravski <amouravski@gmail.com>
+description: A one hour game jam about going through a maze... twice.
+homepage: https://github.com/amouravski/second_chance
+dependencies:
+  one_hour_game_jam: any
+  web_ui: any
+
+#dependencies:
+#  js: any
+#  unittest: any

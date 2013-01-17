@@ -1,0 +1,61 @@
+.cell {
+  display: inline-block;
+  width: 15px;
+  background-color: #eee;
+  text-align: center;
+  /*-webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;*/
+  min-height: 15px;
+  height: 15px;
+  line-height: 15px;
+  border-width: 1px;
+  border-style: solid;
+  margin: 0;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.black {
+  background-color: black;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.button {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  background-color: #eee; 
+}
+
+.button:hover {
+  background-color: #aaa;
+}
+
+
+
+.show-grid {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.lit {
+  background-color: #FFCC33;
+}
+
+.unlit {
+  background-color: #AAA;
+}
+
+.container {
+  width: 500px;
+}
