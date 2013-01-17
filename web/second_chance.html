@@ -13,7 +13,7 @@
       <template iterate="row in mazeGrid">
         <div class="row-fluid show-grid">
           <template iterate="cell in row">
-            <div class="span1 cell {{cell.color}}" on-click=""></div>
+            <div class="span1 cell {{cell.color}}" on-click="">{{cell.text}}</div>
           </template>
         </div>
       </template>

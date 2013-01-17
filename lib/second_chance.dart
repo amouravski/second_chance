@@ -14,6 +14,14 @@ class MazeCell extends Cell {
     return data.color;
   }
   
+  String get text {
+    if (isPlayer) return warn;
+    else return '';
+  }
+  
+  String get warn { 
+  }
+  
   MazeCell(x, y):
     super(x, y);
   
